@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage
+    x:Class="MauiShellNav.Views.StartPage"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    Shell.FlyoutBehavior="Disabled"
+    Shell.NavBarIsVisible="False">
+
+    <Grid>
+        <Button
+            Command="{Binding GoToLoginCommand}"
+            HorizontalOptions="Center"
+            Text="Go to Login"
+            VerticalOptions="Center" />
+    </Grid>
+</ContentPage>
